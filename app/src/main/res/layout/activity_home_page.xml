@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bg01"
+        android:scaleType="centerCrop"
+        android:id="@+id/bg01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/total_balance"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="@font/cambo"
+        android:text="Total Balance"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/total_budget_text"
+        android:layout_width="346dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/email_bar"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#070000"
+        android:textColorHint="#364e4a"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/current_balance"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/cambo"
+        android:text="Current Balance"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/current_balance_text"
+        android:layout_width="347dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="225dp"
+        android:background="@drawable/pass_bar"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#070000"
+        android:textColorHint="#364e4a"
+        android:textColorLink="#2196F3"
+        android:gravity="center_vertical"/>
+
+
+    <TextView
+        android:id="@+id/current_expense"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="275dp"
+        android:fontFamily="@font/cambo"
+        android:text="Current Expense"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/current_expense_text"
+        android:layout_width="347dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/pass_bar"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#070000"
+        android:textColorHint="#364e4a"
+        android:textColorLink="#2196F3"
+        android:gravity="center_vertical"/>
+
+
+
+
+    <TextView
+        android:id="@+id/current_debt"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/cambo"
+        android:text="Current Debt"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/current_debt_text"
+        android:layout_width="347dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="375dp"
+        android:background="@drawable/pass_bar"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#070000"
+        android:textColorHint="#364e4a"
+        android:textColorLink="#2196F3"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/addup_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/plus"
+        android:fontFamily="@font/cambo"
+
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+
+    <Button
+        android:id="@+id/others_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/others"
+        android:fontFamily="@font/cambo"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="456dp"
+        android:background="@drawable/menu"
+        android:fontFamily="@font/cambo"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/logout"
+        android:fontFamily="@font/cambo"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+    <ImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="44dp"
+        android:rotationX="0"
+        android:src="@drawable/logo_icon" />
+
+    <TextView
+        android:id="@+id/show_date"
+        android:layout_width="237dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:fontFamily="@font/cambo"
+        android:textColor="#2b2e4a"
+        android:textSize="30sp" />
+
+</RelativeLayout>

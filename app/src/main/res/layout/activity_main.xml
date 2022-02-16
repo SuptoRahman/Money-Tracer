@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bg01"
+        android:scaleType="centerCrop"
+        android:id="@+id/bg01"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/background_icons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="-12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_icons" />
+
+    <ImageView
+        android:id="@+id/logo_title01"
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="102dp"
+        android:rotationX="0"
+        android:src="@drawable/logo_title01" />
+
+    <ImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="89dp"
+        android:rotationX="0"
+        android:src="@drawable/logo_icon" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="157dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="231dp"
+        android:fontFamily="@font/cambo"
+        android:text="Phone Number"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/phone_bar"
+        android:layout_width="346dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="265dp"
+        android:background="@drawable/email_bar"
+        android:ems="10"
+        android:hint="Enter PhoneNumber"
+        android:inputType="textEmailAddress"
+        android:textColor="#070000"
+        android:textColorHint="#364e4a" />
+
+    <TextView
+        android:id="@+id/Password"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/cambo"
+        android:text="Password"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/password_bar"
+        android:layout_width="347dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="366dp"
+        android:background="@drawable/pass_bar"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#070000"
+        android:textColorHint="#364e4a"
+        android:textColorLink="#2196F3" />
+
+    <CheckBox
+        android:id="@+id/RememberMe"
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="425dp"
+        android:buttonTint="@color/white"
+        android:checked="false"
+        android:fontFamily="@font/cambo"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:textColorHint="#2B2B2B"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/RememberMeText"
+        android:layout_width="146dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="424dp"
+        android:fontFamily="@font/cambo"
+        android:text="Remember me"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="152dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="554dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="Sign In"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="152dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+<!--    <Button-->
+<!--        android:id="@+id/forgotten_password_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="461dp"-->
+<!--        android:background="@android:color/transparent"-->
+<!--        android:text="Forgot Password?"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="#da5863"-->
+<!--        android:textIsSelectable="false"-->
+<!--        android:textSize="18sp"-->
+<!--        app:backgroundTint="@null"-->
+
+<!--        />-->
+
+</RelativeLayout>

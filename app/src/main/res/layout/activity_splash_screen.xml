@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash_screen"
+    android:background="@null">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/bg01"
+        android:scaleType="centerCrop"
+        android:id="@+id/spash_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="193dp"
+        android:src="@drawable/logo_icon" />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="385dp"
+        android:fontFamily="@font/bangers"
+        android:text="Money Tracer"
+        android:textAlignment="center"
+        android:textColor="#fff9b0"
+        android:textSize="60sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

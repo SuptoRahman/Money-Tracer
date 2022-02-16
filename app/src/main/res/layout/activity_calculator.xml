@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:id="@+id/bg01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="-1dp"
+
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg01" />
+
+    <ImageView
+        android:id="@+id/logo_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="44dp"
+        android:rotationX="0"
+        android:src="@drawable/logo_icon" />
+
+
+    <TextView
+        android:id="@+id/from_menu"
+        android:layout_width="230dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/cambo"
+        android:text=""
+        android:textColor="#0B0A0A"
+        android:textSize="27sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/add_total_budget_bar"
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="153dp"
+        android:background="@drawable/email_bar"
+        android:ems="10"
+        android:textColor="#070000"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:textColorHint="#364e4a" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="+"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/minus_button"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="515dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="-"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/mul_button"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="x"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/div_button"
+        android:layout_width="88dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="/"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+
+    <Button
+        android:id="@+id/remainder_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="%"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/three_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="515dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="3"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/six_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="6"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/nine_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="9"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/equal_button"
+        android:layout_width="185dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="="
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+
+    <Button
+        android:id="@+id/zero_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/two_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="515dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="2"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/five_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="5"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/eight_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="8"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/dot_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="."
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        app:backgroundTint="@null" />
+
+
+    <Button
+        android:id="@+id/one_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="515dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/four_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="4"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/seven_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="7"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/del_button"
+        android:layout_width="185dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="Del"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/add_new_expense_button"
+        android:layout_width="375dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/sign_in_button"
+        android:fontFamily="@font/cambo"
+        android:text="Add Expense"
+        android:textColor="#ffffff"
+        android:textSize="28sp"
+        app:backgroundTint="@null" />
+
+
+</RelativeLayout>

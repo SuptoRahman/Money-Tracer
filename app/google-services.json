@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865427020421",
+    "project_id": "money-tracer-a701a",
+    "storage_bucket": "money-tracer-a701a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865427020421:android:5e5b415ca8a0d42a2da7ec",
+        "android_client_info": {
+          "package_name": "com.example.moneytracer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865427020421-3rgk466dk218vcmgnr92icoa49s6c0gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbGkF9LQFQTSIqMSzDPZQPkvodLvX5Vu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865427020421-3rgk466dk218vcmgnr92icoa49s6c0gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
